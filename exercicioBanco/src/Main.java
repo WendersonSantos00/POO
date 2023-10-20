@@ -115,7 +115,7 @@ public class Main {
 
         boolean menu = true;
         while(menu == true){
-            System.out.println("\nDigite: \n1. para cadastro de empresas; \n2. Para cadastro de funcionários. \n3. para pagamentos. \n4.Ver Empresas cadastradas.");
+            System.out.println("\nDigite: \n1. para cadastro de empresas; \n2. Para cadastro de funcionários. \n3. para pagamentos. \n4.Ver Empresas cadastradas. \n5. Ver funcionarios cadastrados. \n");
             int acao = scanner.nextInt();
             switch (acao){
                 case 1: //cadastro de uma nova empresa
